@@ -1,0 +1,341 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+/* ---- fuentes reutilizables ---- */
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.pacific {
+  font-family: "Pacifico", cursive;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+/* ---- clases padding reutilizables ---- */
+
+.p-10 {
+  padding-top: 10rem;
+}
+
+.p-12 {
+  padding-top: 12rem;
+}
+
+.p-18 {
+  padding-top: 18rem;
+}
+
+/* ---- clases heigth reutilizables ---- */
+
+.h-65 {
+  height: 65vh;
+}
+
+/* ---- clases colores reutilizables ---- */
+
+.white {
+  color: white;
+}
+
+/* ---- clases a reutilizables ---- */
+
+.a-links {
+  z-index: 5;
+}
+
+a {
+  color: #ffc107;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* --- Section Portada --- */
+
+.bg-img {
+  background: linear-gradient(rgba(27, 27, 27, 0.75), rgba(83, 83, 83, 0.644)),
+    url(../assets/images/macbook.jpg) center center;
+  background-size: cover;
+}
+
+nav {
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: fixed;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ffc107;
+}
+
+header nav.transparent {
+  background-color: transparent;
+}
+
+/* .down {
+  color: rgb(236, 201, 147);
+  position: absolute;
+  right: 0.5em;
+  top: 10em;
+  z-index: 5;
+  font-size: 3em;
+}
+
+.down:hover {
+  color: #3c4658;
+} */
+
+.title h1 {
+  font-size: 3rem;
+  color: #ffc107;
+  /*color: rgb(255, 156, 7);*/
+}
+
+.icons {
+  width: 3rem;
+  margin: 1rem;
+}
+
+.github {
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+/* --- Section About --- */
+
+.about {
+  z-index: -5;
+  height: 140vh;
+  padding-top: 4em;
+}
+
+.icons-title {
+  width: 7%;
+  padding-right: 1.5rem;
+}
+
+.photo {
+  background-image: url("../assets/images/profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  border: 2rem;
+  margin: 1rem;
+}
+
+.descrip {
+  font-size: 1.4em;
+  padding-top: 1.5em;
+}
+
+/* --- Section Skills --- */
+
+.skills {
+  width: 100%;
+  height: 150vh;
+  position: relative;
+  padding-top: 6rem;
+}
+
+.habilidades {
+  margin-bottom: 1.2rem;
+}
+
+.habilidades .hvr-pop {
+  display: inline-block;
+  font-size: 5rem;
+  padding: 0.15rem;
+}
+
+.habilidades .hvr-pop:hover {
+  color: #ffc107;
+}
+
+.sub-skills {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* --- Section Projects --- */
+
+.projects {
+  height: 270vh;
+  width: 100%;
+  position: relative;
+}
+
+.top {
+  padding-top: 6em;
+}
+
+.projects .top h3 {
+  margin-bottom: 0.8em;
+}
+
+.pd-work {
+  padding-top: 1.6rem;
+}
+
+.shadow {
+  box-shadow: 0px 9px 5px 0px rgba(189, 183, 189, 1);
+  width: 100%;
+  position: relative;
+}
+
+.li-none {
+  list-style: none;
+  padding: 0;
+}
+
+.li-style {
+  background: #ffc107;
+  color: white;
+  border-radius: 4px;
+  padding: 0.2rem;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.images-projects {
+  width: 45vh;
+}
+
+.code {
+  color: #ffc107;
+}
+
+.code:hover {
+  color: #fff;
+}
+
+.info {
+  padding: 0.5rem;
+}
+
+/* --- Section Contact --- */
+
+.contact {
+  height: 110vh;
+  width: 100%;
+  position: relative;
+  background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.icon-contact {
+  color: white;
+  font-size: 2rem;
+}
+
+.btn-cv {
+  width: 8rem;
+  margin: 0.2rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* --- Section Footer --- */
+footer {
+  background: black;
+  font-size: 1rem;
+}
+
+footer:hover,
+footer:active {
+  background: #ffc107;
+  color: black;
+}
+@media (min-width: 576px) {
+  .about {
+    height: 80vh;
+  }
+  .skills {
+    height: 75vh;
+  }
+  .projects {
+    height: 90vh;
+  }
+  .btn-code {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+  .contact {
+    height: 90vh;
+  }
+  .mg-bottom {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title h1 {
+    font-size: 4.4rem;
+  }
+
+  .p-15 {
+    padding-top: 15rem;
+  }
+
+  .decoration li a {
+    font-size: 2.7em;
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .photo {
+    width: 360px;
+    height: 360px;
+  }
+
+  .skills {
+    height: 100vh;
+  }
+
+  .projects {
+    height: 120vh;
+  }
+
+  .icon-contact {
+    color: white;
+    font-size: 4rem;
+  }
+
+  .h300 {
+    height: 340px;
+  }
+
+  .contact {
+    height: 90vh;
+  }
+  .mg-bottom{
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+
+}
