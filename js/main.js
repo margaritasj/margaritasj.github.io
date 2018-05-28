@@ -22,4 +22,6 @@ $(document).ready(function() {
       $('#navbar-portafolio').removeClass('bg-dark');
     }
   });
+
+  console.log('Hola, este es una prueba');
 });
